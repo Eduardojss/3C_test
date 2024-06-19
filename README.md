@@ -8,19 +8,23 @@ Certifique-se de ter os seguintes requisitos instalados em sua máquina:
 
 - Docker
 - Docker Compose
+- php
+- node
+- mysql
+- nginx
 
 ## Configuração
 
 1. Clone o repositório do projeto:
 
     ```
-    git clone https://github.com/seu-usuario/seu-projeto.git
+    git clone https://github.com/{SEU USUARIO}/3C_test.git
     ```
 
 2. Navegue até o diretório do projeto:
 
     ```
-    cd seu-projeto
+    cd 3C_test.git
     ```
 
 3. Copie o arquivo `.env.example` para `.env`:
@@ -34,7 +38,6 @@ Certifique-se de ter os seguintes requisitos instalados em sua máquina:
 ## OBS
 
 <p> O Projeto foi criado pensando em usuários linux/ubuntu isso pode fazer com que algumas pastas possam ter caminhos diferentes dos definidos nas configurações.</p>
-<p> É necessario ter instalado em seu sistema operacional, php, node, mysql e nginx.</p>
 
 ## Executando o projeto
 
