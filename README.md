@@ -52,6 +52,11 @@ Certifique-se de ter os seguintes requisitos instalados em sua máquina:
     ```
     docker compose exec application composer install
     ```
+2. Instale as dependências do vue:
+    
+    ```
+    docker compose exec application npm install
+    ```
 
 3. Entre em seu container usando:
 
